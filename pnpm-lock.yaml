@@ -1,0 +1,29 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  cf-types:
+    specifier: github:qs-bryon/cf-types
+    version: git@github.com+qs-bryon/cf-types/93ca7fb6479cb05ed6b4ff69e7c6796ec1be9119
+
+devDependencies:
+  typescript:
+    specifier: ^5.2.2
+    version: 5.2.2
+
+packages:
+
+  /typescript@5.2.2:
+    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
+
+  git@github.com+qs-bryon/cf-types/93ca7fb6479cb05ed6b4ff69e7c6796ec1be9119:
+    resolution: {commit: 93ca7fb6479cb05ed6b4ff69e7c6796ec1be9119, repo: git@github.com:qs-bryon/cf-types.git, type: git}
+    name: cf-types
+    version: 1.0.0
+    dev: false
